@@ -1,0 +1,30 @@
+{
+  "name": "bnpl-backend",
+  "version": "1.0.0",
+  "description": "BNPL College Project Backend",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node -e \"require('kill-port')(process.env.PORT || 5001).then(() => process.exit(0)).catch(() => process.exit(0))\"",
+    "start": "node index.js",
+    "predev": "node -e \"require('kill-port')(process.env.PORT || 5001).then(() => process.exit(0)).catch(() => process.exit(0))\"",
+    "dev": "nodemon index.js",
+    "seed": "node seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.5.1",
+    "multer": "^2.1.1",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "kill-port": "^2.0.1",
+    "nodemon": "^3.1.14"
+  }
+}

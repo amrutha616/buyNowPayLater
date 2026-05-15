@@ -1,0 +1,18 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A132B"/>
+      <stop offset="100%" stop-color="#1D2E56"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ED6A8"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="22" width="252" height="156" rx="22" fill="url(#g2)"/>
+  <circle cx="84" cy="88" r="28" fill="url(#g3)"/>
+  <path d="M72 89L81 98L98 79" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="130" y="84" fill="white" font-family="Manrope, sans-serif" font-size="16" font-weight="700">Secure Payment</text>
+  <text x="130" y="108" fill="#C9D5EA" font-family="Manrope, sans-serif" font-size="12" font-weight="600">Auto tracked in wallet</text>
+  <rect x="58" y="132" width="184" height="12" rx="6" fill="#2D3E66"/>
+</svg>
