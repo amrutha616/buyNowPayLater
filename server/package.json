@@ -4,7 +4,6 @@
   "description": "BNPL College Project Backend",
   "main": "index.js",
   "scripts": {
-    "prestart": "node -e \"require('kill-port')(process.env.PORT || 5001).then(() => process.exit(0)).catch(() => process.exit(0))\"",
     "start": "node index.js",
     "predev": "node -e \"require('kill-port')(process.env.PORT || 5001).then(() => process.exit(0)).catch(() => process.exit(0))\"",
     "dev": "nodemon index.js",
