@@ -735,7 +735,7 @@ function App() {
 
 function AppWrapper() {
   return (
-    <Router basename="/bnpl">
+    <Router>
       <App />
     </Router>
   );
